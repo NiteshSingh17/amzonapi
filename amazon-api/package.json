@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "npm i --save cors && node backend/server.js"
   },
   "dependencies": {
     "express": "^4.17.1"
