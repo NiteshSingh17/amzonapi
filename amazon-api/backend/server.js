@@ -1,8 +1,9 @@
 import express from 'express';
 import data from './data.js';
 import cors from 'cors';
-app.use(cors());
 const app = express();
+
+app.use(cors());
 app.get('/api/products/:id', (req, res) => {
   const product = data.products.find((x) => x._id === req.params.id);
   if (product) {
