@@ -1,23 +1,22 @@
 {
-  "name": "amazona",
+  "name": "amazon",
   "type": "module",
   "version": "1.0.0",
   "description": "Ecommerce website like amazon",
   "main": "index.js",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+  
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/amazona.git"
+    "url": "git+https://github.com/NiteshSingh17/amzonapi"
   },
-  "author": "",
+  "author": "Nitesh Singh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/basir/amazona/issues"
+    "url": "https://github.com/NiteshSingh17/amzonapi/issues"
   },
-  "homepage": "https://github.com/basir/amazona#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
