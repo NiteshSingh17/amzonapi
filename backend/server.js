@@ -1,4 +1,4 @@
-import data from './data.js';
+
 import User from './models/productModel.js';
 import cors from 'cors';
 import express from 'express';
@@ -23,7 +23,8 @@ mongoose.connect("mongodb+srv://Nitesh:Niteshpassword@cluster0.xs7rh.mongodb.net
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true});
-mongoose.set('useNewUrlParser', true);
+
+mongoose.set('useNewUrlParser', true);
 
 app.use('/api/uploads', uploadRouter);
 app.use('/api/users', userRouter);
